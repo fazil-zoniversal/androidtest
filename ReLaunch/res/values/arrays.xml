@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="search_as_values">
+        <item>@string/arr_search_as_values_substring</item>
+        <item>@string/arr_search_as_values_regexp</item>
+    </string-array>
+
+    <integer name="SEARCH_FILE">    0 </integer>
+    <integer name="SEARCH_LASTDIR"> 1 </integer>
+    <integer name="SEARCH_FPATH">   2 </integer>
+    <integer name="SEARCH_PATH">    3 </integer>
+
+    <string-array name="search_in_values">
+        <item>@string/arr_search_in_values_1</item>
+        <item>@string/arr_search_in_values_2</item>
+        <item>@string/arr_search_in_values_3</item>
+        <item>@string/arr_search_in_values_4</item>
+    </string-array>
+
+    <integer name="FLT_SELECT">          0 </integer>
+    <integer name="FLT_STARTS">          1 </integer>
+    <integer name="FLT_ENDS">            2 </integer>
+    <integer name="FLT_CONTAINS">        3 </integer>
+    <integer name="FLT_MATCHES">         4 </integer>
+    <integer name="FLT_NEW">             5 </integer>
+    <integer name="FLT_NEW_AND_READING"> 6 </integer>
+
+    <string-array name="filter_values">
+        <item>@string/arr_filter_values_1</item>
+        <item>@string/arr_filter_values_2</item>
+        <item>@string/arr_filter_values_3</item>
+        <item>@string/arr_filter_values_4</item>
+        <item>@string/arr_filter_values_5</item>
+        <item>@string/arr_filter_values_6</item>
+        <item>@string/arr_filter_values_7</item>
+    </string-array>
+    <string-array name="do_not_kill_names">
+        <item>android.process.</item>
+        <item>com.android.</item>
+        <item>com.bn.</item>
+    </string-array>
+    <string-array name="do_not_kill_labels">
+        <item>Android System</item>
+    </string-array>
+
+    <bool name="do_not_kill_empty_labels">true</bool>
+
+    <string-array name="filesystems_to_ignore">
+        <item>rootfs</item>
+        <item>tmpfs</item>
+        <item>devpts</item>
+        <item>proc</item>
+        <item>sysfs</item>
+        <item>cgroup</item>
+    </string-array>
+    <string-array name="GL16_modes_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="GL16_modes_names">
+        <item>CLEAR (mode 3)</item>
+        <item>ACTIVE_ALL (mode 4)</item>
+        <item>ONESHOT_ALL (mode 5)</item>
+        <item>CLEAR_ALL (mode 6)</item>
+    </string-array>
+    <string-array name="einkUpdateMode_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="einkUpdateMode_names">
+        <item>@string/arr_einkUpdateMode_names_1</item>
+        <item>@string/arr_einkUpdateMode_names_2</item>
+        <item>@string/arr_einkUpdateMode_names_3</item>
+        <item>@string/arr_einkUpdateMode_names_4</item>
+    </string-array>
+    <string-array name="home_button_actions_values">
+        <item>NOTHING</item>
+        <item>OPENN</item>
+        <item>OPENMENU</item>
+        <item>OPENSCREEN</item>
+    </string-array>
+    <string-array name="home_button_actions_names">
+        <item>@string/arr_home_button_actions_names_1</item>
+        <item>@string/arr_home_button_actions_names_2</item>
+        <item>@string/arr_home_button_actions_names_3</item>
+        <item>@string/arr_home_button_actions_names_4</item>
+    </string-array>
+    <string-array name="lru_button_actions_values">
+        <item>NOTHING</item>
+        <item>OPENN</item>
+        <item>OPENMENU</item>
+        <item>OPENSCREEN</item>
+    </string-array>
+    <string-array name="lru_button_actions_names">
+        <item>@string/arr_lru_button_actions_names_1</item>
+        <item>@string/arr_lru_button_actions_names_2</item>
+        <item>@string/arr_lru_button_actions_names_3</item>
+        <item>@string/arr_lru_button_actions_names_4</item>
+    </string-array>
+    <string-array name="fav_button_actions_values">
+        <item>NOTHING</item>
+        <item>OPENN</item>
+        <item>OPENMENU</item>
+        <item>OPENSCREEN</item>
+    </string-array>
+    <string-array name="fav_button_actions_names">
+        <item>@string/arr_fav_button_actions_names_1</item>
+        <item>@string/arr_fav_button_actions_names_2</item>
+        <item>@string/arr_fav_button_actions_names_3</item>
+        <item>@string/arr_fav_button_actions_names_4</item>
+    </string-array>
+    <string-array name="advanced_button_actions_values">
+        <item>NOTHING</item>
+        <item>RELAUNCH</item>
+        <item>LOCK</item>
+        <item>POWEROFF</item>
+        <item>SWITCHWIFI</item>
+        <item>RUN</item>
+    </string-array>
+    <string-array name="advanced_button_actions_names">
+        <item>@string/arr_advanced_button_actions_names_1</item>
+        <item>@string/arr_advanced_button_actions_names_2</item>
+        <item>@string/arr_advanced_button_actions_names_3</item>
+        <item>@string/arr_advanced_button_actions_names_4</item>
+        <item>@string/arr_advanced_button_actions_names_5</item>
+        <item>@string/arr_advanced_button_actions_names_6</item>
+    </string-array>
+    <string-array name="settings_button_actions_values">
+        <item>NOTHING</item>
+        <item>RELAUNCH</item>
+        <item>LOCK</item>
+        <item>POWEROFF</item>
+        <item>SWITCHWIFI</item>
+        <item>RUN</item>
+    </string-array>
+    <string-array name="settings_button_actions_names">
+        <item>@string/arr_settings_button_actions_names_1</item>
+        <item>@string/arr_settings_button_actions_names_2</item>
+        <item>@string/arr_settings_button_actions_names_3</item>
+        <item>@string/arr_settings_button_actions_names_4</item>
+        <item>@string/arr_settings_button_actions_names_5</item>
+        <item>@string/arr_settings_button_actions_names_6</item>
+    </string-array>
+    <string-array name="mem_button_actions_values">
+        <item>NOTHING</item>
+        <item>RELAUNCH</item>
+        <item>LOCK</item>
+        <item>POWEROFF</item>
+        <item>SWITCHWIFI</item>
+        <item>RUN</item>
+    </string-array>
+    <string-array name="mem_button_actions_names">
+        <item>@string/arr_mem_button_actions_names_1</item>
+        <item>@string/arr_mem_button_actions_names_2</item>
+        <item>@string/arr_mem_button_actions_names_3</item>
+        <item>@string/arr_mem_button_actions_names_4</item>
+        <item>@string/arr_mem_button_actions_names_5</item>
+        <item>@string/arr_mem_button_actions_names_6</item>
+    </string-array>
+    <string-array name="bat_button_actions_values">
+        <item>NOTHING</item>
+        <item>RELAUNCH</item>
+        <item>LOCK</item>
+        <item>POWEROFF</item>
+        <item>SWITCHWIFI</item>
+        <item>RUN</item>
+    </string-array>
+    <string-array name="bat_button_actions_names">
+        <item>@string/arr_bat_button_actions_names_1</item>
+        <item>@string/arr_bat_button_actions_names_2</item>
+        <item>@string/arr_bat_button_actions_names_3</item>
+        <item>@string/arr_bat_button_actions_names_4</item>
+        <item>@string/arr_bat_button_actions_names_5</item>
+        <item>@string/arr_bat_button_actions_names_6</item>
+    </string-array>
+    <string-array name="output_columns_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="output_columns_names">
+        <item>@string/arr_output_columns_names_1</item>
+        <item>@string/arr_output_columns_names_2</item>
+        <item>@string/arr_output_columns_names_3</item>
+        <item>@string/arr_output_columns_names_4</item>
+        <item>@string/arr_output_columns_names_5</item>
+        <item>@string/arr_output_columns_names_6</item>
+    </string-array>
+    <string-array name="output_columns_intensity_values">
+        <item>60 5:5 9:4 19:3 64:2</item>
+        <item>70 3:5 7:4 15:3 48:2</item>
+        <item>80 2:5 5:4 11:3 32:2</item>
+    </string-array>
+    <string-array name="output_columns_intensity_names">
+        <item>@string/arr_output_columns_intensity_names_1</item>
+        <item>@string/arr_output_columns_intensity_names_2</item>
+        <item>@string/arr_output_columns_intensity_names_3</item>
+    </string-array>
+    <string-array name="screen_orientation_values">
+        <item>NO</item>
+        <item>PORTRAIT</item>
+        <item>LANDSCAPE</item>
+    </string-array>
+    <string-array name="screen_orientation_names">
+        <item>@string/arr_screen_orientation_names_1</item>
+        <item>@string/arr_screen_orientation_names_2</item>
+        <item>@string/arr_screen_orientation_names_3</item>
+    </string-array>
+
+    <string-array name="start_mode_values">
+        <item>LAUNCHER</item>
+        <item>PROGRAM</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="start_mode_names">
+        <item>@string/arr_start_mode_names_1</item>
+        <item>@string/arr_start_mode_names_2</item>
+        <item>@string/arr_start_mode_names_3</item>
+    </string-array>
+    <string-array name="work_mode_values">
+        <item>FILES</item>
+        <item>BOOKS</item>
+        <item>UNKNOWN</item>
+    </string-array>
+    <string-array name="work_mode_names">
+        <item>@string/arr_work_mode_names_1</item>
+        <item>@string/arr_work_mode_names_2</item>
+        <item>@string/arr_work_mode_names_3</item>
+    </string-array>
+    <string-array name="appfav_button_actions_values">
+        <item>NOTHING</item>
+        <item>RELAUNCH</item>
+        <item>RUN</item>
+    </string-array>
+    <string-array name="appfav_button_actions_names">
+        <item>@string/arr_appfav_button_actions_names_1</item>
+        <item>@string/arr_appfav_button_actions_names_2</item>
+        <item>@string/arr_appfav_button_actions_names_3</item>
+    </string-array>
+    
+    
+</resources>
